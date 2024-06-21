@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alebrijes: Arte y Cultura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7e6;
+            color: #333;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            background-color: #f9fff9;
+            padding: 20px;
+            border: 1px solid #d0e9d0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alebrijes: Arte y Cultura</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#significado">Significado</a></li>
+            <li><a href="#proceso">Proceso de Creación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#video">Video Tutorial</a></li>
+        </ul>
+    </nav>
+    <section id="historia">
+        <h2>Historia de los Alebrijes</h2>
+        <p>Los alebrijes son una manifestación artística originaria de México, creados por primera vez por Pedro Linares.</p>
+    </section>
+    <section id="significado">
+        <h2>Significado de los Alebrijes</h2>
+        <p>Los alebrijes representan seres fantásticos y coloridos, simbolizando la imaginación y creatividad mexicana.</p>
+    </section>
+    <section id="proceso">
+        <h2>Proceso de Creación</h2>
+        <p>El proceso de creación de un alebrije incluye el diseño, la talla, el ensamblado y la pintura.</p>
+    </section>
+    <section id="galeria">
+        <h2>Galería de Alebrijes</h2>
+        <img src="Alebrije 1.jpeg" alt="Alebrije 1">
+        <img src="Alebrije 2.jpeg" alt="Alebrije 2">
+        <img src="Alebrije 3.jpeg" alt="Alebrije 3">
+    </section>
+    <section id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kCJWtyEJ1pk?si=c-AlMT2-HABqBm01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <footer>
+        <p>&copy; 2024 Alebrijes: Arte y Cultura</p>
+    </footer>
+</body>
+</html>
+  
